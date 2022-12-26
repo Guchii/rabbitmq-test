@@ -1,0 +1,17 @@
+{
+  "name": "rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:send": "node sender.js",
+    "start:receive": "node reciever.js"
+  },
+  "keywords": [],
+  "author": "Shivom Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "@types/amqplib": "^0.10.1",
+    "amqplib": "^0.10.3"
+  }
+}
