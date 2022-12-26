@@ -1,5 +1,7 @@
 ## RabbitMQ Testing
 
+I misspelled receive (I'm aware)
+
 Testing the rabbitmq message broker. Make sure to start a rabbitmq instance beforehand.
 
 ```sh
